@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  nextcloud:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-06-10T02:41:13.853649748Z"
+    dependencies:
+    - name: nextcloud
+      repository: https://nextcloud.github.io/helm/
+      version: 8.9.1
+    description: Nextcloud on Kubernetes (official chart + External Secrets). External
+      PostgreSQL and Redis.
+    digest: 5efdb7645a56eab939a93a7fa7e9ac2ddf9b25fa80b20bf5426969171e9b6bd2
+    home: https://nextcloud.com
+    keywords:
+    - nextcloud
+    - storage
+    - files
+    - caldav
+    - carddav
+    kubeVersion: '>=1.22.0-0'
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/helm
+    - https://github.com/nextcloud/docker
+    type: application
+    urls:
+    - https://expectedbehaviors.github.io/nextcloud/nextcloud-1.0.0.tgz
+    version: 1.0.0
+generated: "2026-06-10T02:41:13.833517176Z"
