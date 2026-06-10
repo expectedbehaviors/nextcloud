@@ -3,7 +3,7 @@ name: nextcloud
 description: Nextcloud on Kubernetes (official chart + External Secrets). External PostgreSQL and Redis.
 type: application
 version: 1.0.0
-appVersion: "32.0.6"
+appVersion: "1.0.0"
 kubeVersion: ">=1.22.0-0"
 keywords:
   - nextcloud
